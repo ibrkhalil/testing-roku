@@ -22,7 +22,7 @@
       m.readVideoContentTask.observeField("content", "showvideolist")
       m.readVideoContentTask.contenturi = "http://bit.ly/2JUKILe"
       m.readVideoContentTask.control = "RUN" 
-
+      ?"New Comment"
       m.videolist.observeField("itemFocused", "setvideo")
       m.videolist.observeField("itemSelected", "playvideo")
     end sub
